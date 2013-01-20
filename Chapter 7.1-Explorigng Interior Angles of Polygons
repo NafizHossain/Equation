@@ -1,0 +1,9 @@
+<?php
+include('Actual Functional app.html'); //have to have this line of code in every php file
+echo "<div style='position: absolute; top: 140px; left: 40px; color: white'>";
+	echo 'Equation of a straight line:';echo "<img src='Grade9=3-1.png' />"  ;
+	echo "<img src='Grade9=3-2.png' />"  ;
+    echo 'Standard form:';echo "<img src='Grade9=3-3.png' />"  ;
+	echo "</div>";
+?>
+

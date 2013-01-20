@@ -1,0 +1,68 @@
+body
+{
+background-image:url(chalkboared.jpg);
+background-size:100% Auto;
+}
+
+.nav ul 
+{
+list-style:none; 
+margin: 0; 
+padding:0;
+font-family: calibri; 
+}
+.nav li 
+{
+margin-top: 10px;
+margin-left: 0px;
+float: left;
+width: 125px;  
+text-align:center;
+border:1px solid white;
+position:relative;
+height:30px; 
+left: 35px;
+line-height:30px;
+}
+.nav li ul li 
+{
+float:none; 
+width:400px; 
+text-align:left; 
+padding-left:5px;
+border-top:1px solid white;
+}
+.nav a 
+{
+text-decoration:none; 
+color:white;
+}
+.nav li ul
+{
+position:absolute; 
+top:40px; 
+left:0; 
+visibility:hidden; 
+}
+.nav li:hover ul 
+{
+visibility:visible;
+}
+
+.nav li:hover 
+{
+background-color:maroon;
+}
+
+.content 
+{
+clear:both;
+}
+
+
+
+
+
+
+
+
